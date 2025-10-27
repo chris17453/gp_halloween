@@ -4,7 +4,7 @@ title: "Chapter 1: Ghost in the Machine"
 nav_order: 2
 ---
 
-![Chapter 1: Ghost in the Machine]({{ site.baseurl }}/assets/images/chapter_1.jpg)
+![Chapter 1: Ghost in the Machine]({{ '/assets/images/chapter_1.jpg' | relative_url }})
 
 # Chapter 1: Ghost in the Machine
 

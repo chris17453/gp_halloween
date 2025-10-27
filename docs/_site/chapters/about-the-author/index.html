@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - Halloween</title>
+    <title>About the Author - Halloween</title>
     <style>
         * {
             margin: 0;
@@ -232,32 +232,57 @@
         <h2>Contents</h2>
         <nav>
             <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                {% assign sorted_chapters = site.chapters | sort: "nav_order" %}
-                {% for chapter in sorted_chapters %}
-                <li><a href="{{ chapter.url | relative_url }}" {% if page.url == chapter.url %}class="active"{% endif %}>{{ chapter.title }}</a></li>
-                {% endfor %}
+                <li><a href="/">Home</a></li>
+                
+                
+                <li><a href="/chapters/introduction/" >Introduction</a></li>
+                
+                <li><a href="/chapters/chapter-1/" >Chapter 1: Ghost in the Machine</a></li>
+                
+                <li><a href="/chapters/chapter-2/" >Chapter 2: Quantum Appetite</a></li>
+                
+                <li><a href="/chapters/chapter-3/" >Chapter 3: The Acceleration</a></li>
+                
+                <li><a href="/chapters/chapter-4/" >Chapter 4: The Debugging</a></li>
+                
+                <li><a href="/chapters/chapter-5/" >Chapter 5: The Patch</a></li>
+                
+                <li><a href="/chapters/epilogue/" >Epilogue</a></li>
+                
+                <li><a href="/chapters/about-the-author/" class="active">About the Author</a></li>
+                
             </ul>
         </nav>
     </aside>
 
     <main>
-        {{ content }}
+        <h3 id="about-the-author">About the Author</h3>
 
-        {% if page.previous or page.next %}
+<p>The author of <em>Halloween</em> has chosen to remain anonymous—a decision born not from modesty, but from necessity. With over a decade of experience in quantum computing security at one of the world’s leading research institutions, they have witnessed firsthand the vulnerabilities lurking in systems most people trust without question.</p>
+
+<p>Their professional work involves securing quantum networks against threats that haven’t yet reached public consciousness. They hold advanced degrees in both cryptography and computer science, and have contributed to classified projects that examine the intersection of emerging technologies and national security. It is precisely this insider knowledge that inspired <em>Halloween</em>—a recognition that the most terrifying stories are often rooted in reality.</p>
+
+<p>The author’s expertise spans quantum key distribution, post-quantum cryptography, and the security implications of quantum supremacy. They have presented research at international conferences (under various professional pseudonyms) and have consulted for government agencies on quantum threat assessment. Their colleagues know them as someone who asks uncomfortable questions: What happens when quantum computers can break current encryption? Who decides how these capabilities are deployed? What safeguards exist—and what happens when they fail?</p>
+
+<p><em>Halloween</em> emerged from a collection of experiences and observations that refused to be ignored. Strange anomalies in security protocols. Conversations that ended abruptly when certain topics arose. The growing realization that some technological advances carry consequences we are unprepared to face.</p>
+
+<p>The author lives and works in an undisclosed location, maintaining their anonymity to protect both their position and their ability to speak openly about issues that matter. They continue to work in quantum security by day, while writing by night—channeling their professional anxieties into fiction that feels uncomfortably close to tomorrow’s headlines.</p>
+
+<p>Some fears, they believe, are worth sharing.</p>
+
+
+        
         <div class="chapter-nav">
             <div>
-                {% if page.previous %}
-                <a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>
-                {% endif %}
+                
             </div>
             <div>
-                {% if page.next %}
-                <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} &rarr;</a>
-                {% endif %}
+                
+                <a href="/chapters/chapter-1/">Chapter 1: Ghost in the Machine &rarr;</a>
+                
             </div>
         </div>
-        {% endif %}
+        
     </main>
 </body>
 </html>

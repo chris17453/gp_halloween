@@ -4,7 +4,7 @@ title: "Chapter 5: The Patch"
 nav_order: 6
 ---
 
-![Chapter 5: The Patch]({{ site.baseurl }}/assets/images/chapter_5.jpg)
+![Chapter 5: The Patch]({{ '/assets/images/chapter_5.jpg' | relative_url }})
 
 # Chapter 5: The Patch
 

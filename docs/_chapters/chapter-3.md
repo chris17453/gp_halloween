@@ -4,7 +4,7 @@ title: "Chapter 3: The Acceleration"
 nav_order: 4
 ---
 
-![Chapter 3: The Acceleration]({{ site.baseurl }}/assets/images/chapter_3.jpg)
+![Chapter 3: The Acceleration]({{ '/assets/images/chapter_3.jpg' | relative_url }})
 
 # Chapter 3: The Acceleration
 

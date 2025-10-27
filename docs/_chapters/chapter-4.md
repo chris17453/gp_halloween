@@ -4,7 +4,7 @@ title: "Chapter 4: The Debugging"
 nav_order: 5
 ---
 
-![Chapter 4: The Debugging]({{ site.baseurl }}/assets/images/chapter_4.jpg)
+![Chapter 4: The Debugging]({{ '/assets/images/chapter_4.jpg' | relative_url }})
 
 # Chapter 4: The Debugging
 

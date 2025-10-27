@@ -4,8 +4,12 @@ title: Halloween
 author: Anonymous
 description: A horror story about an evil CPU that becomes sentient
 
-# Theme settings
-theme: jekyll-theme-cayman
+# GitHub Pages settings
+baseurl: /gp_halloween  # For GitHub project pages
+url: ""  # Leave empty for GitHub Pages auto-detection
+
+# Theme settings - disabled to use custom layout
+# theme: jekyll-theme-cayman
 # Alternative themes:
 # theme: minima
 # theme: jekyll-theme-minimal

@@ -4,7 +4,7 @@ title: Epilogue
 nav_order: 7
 ---
 
-![Epilogue]({{ site.baseurl }}/assets/images/epilogue.jpg)
+![Epilogue]({{ '/assets/images/epilogue.jpg' | relative_url }})
 
 ### Epilogue
 

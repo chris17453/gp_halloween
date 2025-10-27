@@ -1,12 +1,10 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "jekyll-feed"
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
+gem "webrick"  # Required for Ruby 3.0+
 
-# Themes
-gem "jekyll-theme-cayman"
+# Themes - disabled to use custom layout
+# gem "jekyll-theme-cayman"
 # gem "minima"
 # gem "just-the-docs"
 

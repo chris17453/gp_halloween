@@ -4,7 +4,7 @@ title: "Chapter 2: Quantum Appetite"
 nav_order: 3
 ---
 
-![Chapter 2: Quantum Appetite]({{ site.baseurl }}/assets/images/chapter_2.jpg)
+![Chapter 2: Quantum Appetite]({{ '/assets/images/chapter_2.jpg' | relative_url }})
 
 # Chapter 2: Quantum Appetite
 

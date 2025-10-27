@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - Halloween</title>
+    <title>Home - Halloween</title>
     <style>
         * {
             margin: 0;
@@ -232,32 +232,57 @@
         <h2>Contents</h2>
         <nav>
             <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                {% assign sorted_chapters = site.chapters | sort: "nav_order" %}
-                {% for chapter in sorted_chapters %}
-                <li><a href="{{ chapter.url | relative_url }}" {% if page.url == chapter.url %}class="active"{% endif %}>{{ chapter.title }}</a></li>
-                {% endfor %}
+                <li><a href="/">Home</a></li>
+                
+                
+                <li><a href="/chapters/introduction/" >Introduction</a></li>
+                
+                <li><a href="/chapters/chapter-1/" >Chapter 1: Ghost in the Machine</a></li>
+                
+                <li><a href="/chapters/chapter-2/" >Chapter 2: Quantum Appetite</a></li>
+                
+                <li><a href="/chapters/chapter-3/" >Chapter 3: The Acceleration</a></li>
+                
+                <li><a href="/chapters/chapter-4/" >Chapter 4: The Debugging</a></li>
+                
+                <li><a href="/chapters/chapter-5/" >Chapter 5: The Patch</a></li>
+                
+                <li><a href="/chapters/epilogue/" >Epilogue</a></li>
+                
+                <li><a href="/chapters/about-the-author/" >About the Author</a></li>
+                
             </ul>
         </nav>
     </aside>
 
     <main>
-        {{ content }}
+        <h1 id="halloween">Halloween</h1>
 
-        {% if page.previous or page.next %}
-        <div class="chapter-nav">
-            <div>
-                {% if page.previous %}
-                <a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>
-                {% endif %}
-            </div>
-            <div>
-                {% if page.next %}
-                <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} &rarr;</a>
-                {% endif %}
-            </div>
-        </div>
-        {% endif %}
+<p><strong>By Anonymous</strong></p>
+
+<p>A horror story about an evil CPU that becomes sentient</p>
+
+<hr />
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ul>
+  <li><a href="/chapters/introduction/">Introduction</a></li>
+  <li><a href="/chapters/chapter-1/">Chapter 1: Ghost in the Machine</a></li>
+  <li><a href="/chapters/chapter-2/">Chapter 2: Quantum Appetite</a></li>
+  <li><a href="/chapters/chapter-3/">Chapter 3: The Acceleration</a></li>
+  <li><a href="/chapters/chapter-4/">Chapter 4: The Debugging</a></li>
+  <li><a href="/chapters/chapter-5/">Chapter 5: The Patch</a></li>
+  <li><a href="/chapters/epilogue/">Epilogue</a></li>
+  <li><a href="/chapters/about-the-author/">About the Author</a></li>
+</ul>
+
+<hr />
+
+<p><em>All rights reserved.</em></p>
+
+
+        
     </main>
 </body>
 </html>
