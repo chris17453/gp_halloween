@@ -244,19 +244,41 @@
     <main>
         {{ content }}
 
-        {% if page.previous or page.next %}
-        <div class="chapter-nav">
-            <div>
-                {% if page.previous %}
-                <a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>
-                {% endif %}
+        {% assign sorted_chapters = site.chapters | sort: "nav_order" %}
+        {% assign current_index = -1 %}
+        {% for chapter in sorted_chapters %}
+            {% if chapter.url == page.url %}
+                {% assign current_index = forloop.index0 %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+
+        {% if current_index >= 0 %}
+            {% assign prev_index = current_index | minus: 1 %}
+            {% assign next_index = current_index | plus: 1 %}
+
+            {% if prev_index >= 0 %}
+                {% assign prev_chapter = sorted_chapters[prev_index] %}
+            {% endif %}
+
+            {% if next_index < sorted_chapters.size %}
+                {% assign next_chapter = sorted_chapters[next_index] %}
+            {% endif %}
+
+            {% if prev_chapter or next_chapter %}
+            <div class="chapter-nav">
+                <div>
+                    {% if prev_chapter %}
+                    <a href="{{ prev_chapter.url | relative_url }}">&larr; {{ prev_chapter.title }}</a>
+                    {% endif %}
+                </div>
+                <div>
+                    {% if next_chapter %}
+                    <a href="{{ next_chapter.url | relative_url }}">{{ next_chapter.title }} &rarr;</a>
+                    {% endif %}
+                </div>
             </div>
-            <div>
-                {% if page.next %}
-                <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} &rarr;</a>
-                {% endif %}
-            </div>
-        </div>
+            {% endif %}
         {% endif %}
     </main>
 </body>
