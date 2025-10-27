@@ -233,8 +233,8 @@
         <nav>
             <ul>
                 <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                {{ site.chapters | sort: "nav_order" }}
-                {% for chapter in site.chapters %}
+                {% assign sorted_chapters = site.chapters | sort: "nav_order" %}
+                {% for chapter in sorted_chapters %}
                 <li><a href="{{ chapter.url | relative_url }}" {% if page.url == chapter.url %}class="active"{% endif %}>{{ chapter.title }}</a></li>
                 {% endfor %}
             </ul>
