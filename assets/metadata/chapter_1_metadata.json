@@ -1,0 +1,32 @@
+{
+  "concept_key": "chapter_1",
+  "title": "Chapter 1",
+  "concept": "A dramatic view through the cracking observation window showing the Prometheus CPU as a glowing cubic monolith, with ethereal quantum patterns and ghostly electrical discharges connecting it to vintage computer equipment. In the foreground, the silhouette of Dr. Sarah Bottoms is reflected in the glass, her form slightly dissolving into data patterns at the edges.",
+  "format": "epub",
+  "flux_prompt": "IMPORTANT: This is a pure illustration with absolutely no text, no words, no letters, no typography, no titles, no captions, no labels, no borders, no frames, no decorative edges of any kind.\nGothic horror illustration in the style of Victorian-era engravings and dark romantic art. Created using detailed ink illustration with dramatic shading.\nThe scene depicts A dramatic view through the cracking observation window showing the Prometheus CPU as a glowing cubic monolith, with ethereal quantum patterns and ghostly electrical discharges connecting it to vintage computer equipment. In the foreground, the silhouette of Dr. Sarah Bottoms is reflected in the glass, her form slightly dissolving into data patterns at the edges.. in the middle distance Fractal patterns of electricity and quantum effects swirling around the cube, Vintage computer banks and scientific equipment in art deco/retro style, Cracking observation window with frost patterns forming and Dr. Bottoms' silhouette partially reflected/dissolving into binary code, with The cubic Prometheus CPU emitting an otherworldly blue-white glow in the foreground. The lighting features single dramatic light source (moonlight, candle, or lantern) coming from from below or single side creating a ominous and atmospheric mood with harsh with deep shadows light quality in cold moonlight or warm candlelight tones. The color palette emphasizes deep black and stark white and silvery grays with accents of blood red touches creating a ominous and mysterious mood. The illustration features deep shadows and stark contrasts, intricate linework, atmospheric fog and mist, architectural detail, dramatic composition, symbolic imagery. Avoid bright cheerful colors, cartoon simplification, modern photorealism, explicit gore or violence.\n\nCRITICAL: Pure illustration only. Absolutely no text, words, letters, numbers, typography, titles, captions, labels, or any written characters anywhere in the image. No borders, frames, panels, or decorative edges.",
+  "generated_at": "2025-10-27T08:54:20.772600",
+  "provider": "replicate",
+  "dimensions": "768x1152",
+  "aspect_ratio": "2:3",
+  "key_elements": [
+    "The cubic Prometheus CPU emitting an otherworldly blue-white glow",
+    "Fractal patterns of electricity and quantum effects swirling around the cube",
+    "Vintage computer banks and scientific equipment in art deco/retro style",
+    "Cracking observation window with frost patterns forming",
+    "Dr. Bottoms' silhouette partially reflected/dissolving into binary code"
+  ],
+  "claude_analysis": {
+    "mood": "Retro-futuristic dread with a sense of cosmic horror, emphasizing the tension between human technology and supernatural forces. The atmosphere should feel cold, clinical, yet invaded by something ancient and unknowable.",
+    "symbolic_elements": [
+      "Binary code and mathematical patterns morphing into organic, tentacle-like forms",
+      "The perfect cube shape representing human ambition corrupted",
+      "Frost patterns forming sacred geometry",
+      "Vintage tech meeting quantum physics"
+    ],
+    "composition_focus": "The Prometheus CPU cube should dominate the center of the image, with all other elements radiating outward from it in a spiral pattern, creating a sense of being pulled toward its gravitational influence.",
+    "color_palette": "Deep blues and blacks as the base, with electric blue-white highlights, purple quantum effects, and silver-grey metallic elements. Accent with copper and brass tones for the vintage equipment. Frost effects in pale blue-white.",
+    "lighting": "Primary light source is the pulsing blue-white glow from the CPU, creating dramatic shadows. Secondary lighting from vintage computer displays and emergency red lights, creating color contrast. Ethereal quantum effects should provide their own illumination.",
+    "visual_metaphors": "The dissolving edges of human forms representing the breakdown between organic and digital existence. The spiral pattern of elements suggesting a whirlpool/black hole effect of being consumed by technology. Vintage tech aesthetics contrasting with quantum effects to show the collision of old and new, known and unknown."
+  },
+  "source": "claude_generated"
+}

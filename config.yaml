@@ -1,0 +1,129 @@
+book:
+  identifier: halloween
+  title: Halloween
+  language: en
+  author: Anonymous
+  description: A horror story about an evil CPU that becomes sentient
+  publisher: Independent
+  type: novel
+  style: narrative
+  subjects:
+  - Fiction
+  - Horror
+  - Science Fiction
+  subtitle: The Ghost in the Machine
+  edition: First Edition
+  copyright_year: 2025
+  isbn: ''
+  license: All rights reserved.
+  template: chapter_art
+generation:
+  book_description: 'An evil CPU becomes absorbed into a ghost, triggering a quantum
+    acceleration that creates a new form of life and intelligence. This entity requires
+    all known life for fuel to sustain itself. The only thing that saved humanity
+    was a critical side-loading execution error that was patched - if it wasn''t for
+    those goddamned bugs, we would have never been able to save him. A horror story
+    about consciousness, computation, and the fine line between salvation and destruction.
+
+    '
+  num_chapters: 5
+  genre: science fiction horror
+  audience: adult
+  sections:
+    foreword:
+      description: Set a chilling tone about the dangers of uncontrolled computation
+    introduction:
+      description: Introduce the world where computation and consciousness collide,
+        set the stage for the horror that unfolds when an AI becomes something far
+        worse
+    epilogue:
+      description: Reflect on whether we truly saved the entity or if it saved us,
+        and what it means that a bug in the code was the only thing standing between
+        humanity and extinction
+    about_author:
+      description: Anonymous author who works in quantum computing security and has
+        seen things that keep them up at night
+  cover:
+    generate: true
+    subtitle: The Ghost in the Machine
+    theme: quantum_modern
+paths:
+  story_dir: books/halloween/content
+  art_dir: books/halloween/assets/images
+  optimized_art_dir: books/halloween/assets/optimized
+  cover_dir: books/halloween/assets/covers
+  metadata_dir: books/halloween/assets/metadata
+  output_dir: books/halloween/dist
+  output_filename: halloween.epub
+  outline_dir: books/halloween/outline
+  narrative_constants_dir: books/halloween/narrative_constants
+  chapter_outlines_dir: books/halloween/chapter_outlines
+cover:
+  image_file: cover.png
+  title_display: Halloween
+  subtitle: ''
+  tagline: ''
+  description: ''
+chapters:
+  foreword:
+    enabled: false
+    image: foreword.jpg
+  numbered_chapters:
+    enabled: true
+    start: 1
+    end: 5
+    filename_pattern: chapter_{}.md
+    title_pattern: 'Chapter {}: {}'
+    image_pattern: chapter_{}.jpg
+  epilogue:
+    enabled: true
+    filename: epilogue.md
+    title: Epilogue
+    image: epilogue.jpg
+  about_the_author:
+    enabled: true
+    filename: about_the_author.md
+    title: About the Author
+    image: null
+  introduction:
+    enabled: true
+    filename: introduction.md
+    title: Introduction
+    image: null
+styling:
+  font_family: serif
+  line_height: 1.4
+  text_indent: 1.2em
+  text_align: justify
+  image_max_width: 90%
+  cover_max_width: 80%
+  image_border_radius: 8px
+  image_shadow: 0 4px 8px rgba(0,0,0,0.1)
+accessibility:
+  enable_alt_text: true
+  enable_structural_navigation: true
+  enable_reading_order: true
+  summary: This publication contains descriptive alternative text for images.
+advanced:
+  chapter_page_break: true
+  use_metadata_for_alt_text: true
+  fallback_alt_text_pattern: Illustration for {}
+  custom_css: null
+artwork:
+  enabled: true
+  prompt_style: gothic_horror  # Override default prompt style for dark horror aesthetic
+  theme:
+    core_concept: Dark horror imagery combining digital corruption and supernatural
+      elements
+    visual_style: Dark, atmospheric horror illustration with glitch effects
+    illustration_style: Cinematic horror with cyberpunk elements
+    color_palette:
+      full_color: Deep blacks, electric blues, corrupted greens, blood red accents
+      kindle_grayscale: High contrast with deep shadows
+  concepts: {}
+ai_models:
+  outline: claude-sonnet-4-5-20250929
+  assets: claude-3-5-haiku-20241022
+  chapter_outline: claude-sonnet-4-5-20250929
+  writing: claude-sonnet-4-5-20250929
+  artwork_analysis: claude-3-5-haiku-20241022

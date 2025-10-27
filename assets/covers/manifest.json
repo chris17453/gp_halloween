@@ -1,0 +1,29 @@
+{
+  "generated_at": "2025-10-27T07:57:49.076589",
+  "theme": "quantum_modern",
+  "palette": "midnight_rose",
+  "background": "tech_abstract",
+  "layout": "bebas_raleway_center",
+  "format": "kindle_ebook",
+  "dimensions": {
+    "width": 1600,
+    "height": 2400
+  },
+  "content": {
+    "title": "Halloween",
+    "author": "Anonymous",
+    "subtitle": "The Ghost in the Machine"
+  },
+  "background_prompt": {
+    "prompt": "Generated with style: gothic_horror",
+    "reused": false
+  },
+  "layers": {
+    "background": "books/halloween/assets/covers/background.png",
+    "zone_0": "books/halloween/assets/covers/layer_zone_0.png",
+    "zone_1": "books/halloween/assets/covers/layer_zone_1.png",
+    "zone_2": "books/halloween/assets/covers/layer_zone_2.png",
+    "zone_3": "books/halloween/assets/covers/layer_zone_3.png"
+  },
+  "final_path": "books/halloween/assets/covers/cover.jpg"
+}
