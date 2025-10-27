@@ -1,0 +1,44 @@
+# Jekyll Configuration for Halloween
+
+title: Halloween
+author: Anonymous
+description: A horror story about an evil CPU that becomes sentient
+
+# GitHub Pages settings
+baseurl: /booker  # For GitHub project pages
+url: ""  # Leave empty for GitHub Pages auto-detection
+
+# Theme settings
+theme: jekyll-theme-cayman
+# Alternative themes:
+# theme: minima
+# theme: jekyll-theme-minimal
+# remote_theme: just-the-docs/just-the-docs
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:name/
+
+# Navigation
+sidebar:
+  enabled: true
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
